@@ -70,13 +70,7 @@ export const HeaderModel: Model = {
                 models: ['Social']
             },
             default: [
-                {
-                    type: 'Social',
-                    label: '',
-                    altText: 'Twitter',
-                    url: '/',
-                    icon: 'twitter'
-                },
+              
                 {
                     type: 'Social',
                     label: '',

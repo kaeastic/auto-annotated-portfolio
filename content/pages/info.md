@@ -14,14 +14,11 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      ## Hello! My name is Kaeleigh Wren, and I am thrilled to welcome you to my computer science portfolio. As a junior computer science student at Montana State University, I am passionate about exploring the fascinating world of technology and its limitless potential to solve complex problems and enhance our lives. My journey in computer science began in a rather unexpected way—working at the St. James Healthcare hospital lab. During my time at the hospital lab, I had the opportunity to interact closely with the lab technology and the Epic computer system, which serves as a backbone for managing patient data and improving healthcare workflows. Witnessing the power of technology in a healthcare setting sparked my curiosity and ignited a desire to delve deeper into the world of computer science.
     media:
       type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
+      url: \images\aboutme.JPG
+      altText: aboutme
     styles:
       self:
         height: auto
@@ -46,65 +43,10 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
-    images:
-      - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
-      - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
+
   - type: DividerSection
     styles:
       self:
@@ -123,51 +65,30 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/'
+            label: Github
+            url: 'https://github.com/kaeastic'
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
-        styles:
-          self:
-            textAlign: left
+
       - type: FeaturedItem
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/in/kaeleigh-wren-173b80250/'
         styles:
           self:
             textAlign: left
+
       - type: FeaturedItem
         actions:
           - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+            label: Handshake
+            url: 'https://montana.joinhandshake.com/stu/users/36917826'
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
-        styles:
-          self:
-            textAlign: left
+
     columns: 3
     spacingX: 120
     spacingY: 0
@@ -207,9 +128,9 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: 'Python'
       - type: Label
-        label: React
+        label: Adobe Creative Cloud
       - type: Label
         label: Microsoft Office
       - type: Label
@@ -217,11 +138,11 @@ sections:
       - type: Label
         label: Stackbit
       - type: Label
-        label: Pancakes
+        label: Java
       - type: Label
-        label: C++
+        label: C+
       - type: Label
-        label: Swift
+        label: HTML/CSS
   - type: DividerSection
     styles:
       self:
@@ -239,7 +160,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [kaeleigh.wren@student.montana.edu](mailto:kaeleigh.wren@student.montana.edu)
   - type: DividerSection
     styles:
       self:
@@ -260,23 +181,17 @@ sections:
         text: |-
           **Current**
 
-          * freelance @freelance.me
+          * Grocery at Co-Op(Bozeman, MT)
+          * Event Staff at the Rialto(Bozeman, MT)
 
-          **2018-2021**
+          **2019-2021**
 
-          * fullstack at this startup
+          * Phlebotomist at St. James Healthcare(Butte, MT)
 
-          **2015**
+          **2018**
 
-          * senior front-end at this place
+          * Psych Tech at North Mississippi Medical Center (Tupelo, MS)
 
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
         styles:
           self:
             textAlign: left
@@ -288,17 +203,21 @@ sections:
       - type: FeaturedItem
         subtitle: 'Education:'
         text: |-
-          **2015-2018**
+          **2019-Current**
+           
+          * Major change to BS in Computer Science:Professional Option, Montana State University
 
-          * ba computer sciense at a semi fancy school
+          **2018-2019**
 
-          **2014**
+          * Nursing prerequisites, Montana Tech
 
-          * react certificate somewhere
+          **2016-2017**
 
-          **2011**
+          * Phlebotomy certificate at Itawaba Community College
 
-          * my highschool
+          **2015**
+
+          * Graduated from Saltillo High School
         styles:
           self:
             textAlign: left
@@ -333,65 +252,9 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+
   - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      destination: ''
-      action: /.netlify/functions/submission_created
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
+
     styles:
       self:
         height: auto
