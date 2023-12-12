@@ -14,7 +14,8 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## Hello! My name is Kaeleigh Wren, and I am thrilled to welcome you to my computer science portfolio. As a junior computer science student at Montana State University, I am passionate about exploring the fascinating world of technology and its limitless potential to solve complex problems and enhance our lives. My journey in computer science began in a rather unexpected way—working at the St. James Healthcare hospital lab. During my time at the hospital lab, I had the opportunity to interact closely with the lab technology and the Epic computer system, which serves as a backbone for managing patient data and improving healthcare workflows. Witnessing the power of technology in a healthcare setting sparked my curiosity and ignited a desire to delve deeper into the world of computer science.
+      ## Hello! My name is Kaeleigh Wren. I am thrilled to welcome you to my computer science portfolio. As a junior computer science student at Montana State University, I am passionate about exploring the fascinating world of technology and its limitless potential to solve complex problems and enhance our lives. My journey in computer science began in a rather unexpected way—working at the St. James Healthcare hospital lab. During my time at the hospital lab, I had the opportunity to interact closely with the lab technology and the Epic computer system, which serves as a backbone for managing patient data and improving healthcare work flow. Witnessing the power of technology in a healthcare setting sparked my curiosity and ignited a desire to delve deeper into the world of computer science.
+
     media:
       type: ImageBlock
       url: \images\aboutme.JPG
